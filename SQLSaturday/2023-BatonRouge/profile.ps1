@@ -1,6 +1,14 @@
 [CmdletBinding()]
 param()
 #-------------------------------------------------------
+#region Important global settings
+#-------------------------------------------------------
+[System.Net.ServicePointManager]::SecurityProtocol =
+    [System.Net.ServicePointManager]::SecurityProtocol -bor [System.Net.SecurityProtocolType]::Tls12
+
+#-------------------------------------------------------
+#endregion
+#-------------------------------------------------------
 #region Version-specific initialization
 #-------------------------------------------------------
 
