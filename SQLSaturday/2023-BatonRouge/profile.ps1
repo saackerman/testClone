@@ -117,6 +117,7 @@ $keymap = @{
     Cut                   = 'Ctrl+x'
     DeleteChar            = 'Delete'
     EndOfLine             = 'End'
+    ForwardWord           = 'Ctrl+f'
     KillWord              = 'Ctrl+Delete'
     MenuComplete          = 'Ctrl+Spacebar',
                             'Ctrl+D2' # needed for Linux/macOS (not Cmd+D2)
@@ -228,7 +229,7 @@ $function:prompt = $global:Prompts.PoshGitPrompt
 #-------------------------------------------------------
 #region DefaultParameterValues
 #-------------------------------------------------------
-$PSDefaultParameterValues += @{
+$PSDefaultParameterValues = @{
     'Out-Default:OutVariable'           = 'LastResult'  # Save output to $LastResult
     'Out-File:Encoding'                 = 'utf8'        # PS5.1 defaults to ASCII
     'Export-Csv:NoTypeInformation'      = $true         # PS5.1 defaults to $false
