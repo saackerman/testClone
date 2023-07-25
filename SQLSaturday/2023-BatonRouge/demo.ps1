@@ -42,6 +42,7 @@ $RedText = "${esc}[91m" + 'This is red text' + "${esc}[0m"
 $RedText
 
 #region New operators
+# New operators introduced in PS7+
 # Chain operators
 notepad
 Get-Process notepad
