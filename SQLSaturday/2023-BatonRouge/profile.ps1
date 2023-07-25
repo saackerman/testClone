@@ -1,6 +1,15 @@
 [CmdletBinding()]
 param()
 #-------------------------------------------------------
+#region Presentation information
+#-------------------------------------------------------
+# Title  : Optimizing Your PowerShell Profile
+# Author : Sean Wheeler (sean.wheeler@microsoft.com)
+# Event  : SQL Saturday 2023 #1060 - Baton Rouge, LA
+#          https://sqlsaturday.com/2023-07-29-sqlsaturday1060/
+#-------------------------------------------------------
+#endregion
+#-------------------------------------------------------
 #region Important global settings
 #-------------------------------------------------------
 [System.Net.ServicePointManager]::SecurityProtocol =
@@ -11,8 +20,7 @@ param()
 #-------------------------------------------------------
 #region Version-specific initialization
 #-------------------------------------------------------
-
-if ($PSVersionTable.PSVersion.ToString() -like '5.*') {
+if ($PSVersionTable.PSVersion -lt '6.0') {
     Write-Verbose 'Setting up PowerShell 5.x environment...'
     # The $Is* variables are not defined in PowerShell 5.1
     $IsLinux = $IsMacOS = $IsCoreCLR = $false
@@ -29,9 +37,9 @@ if ($PSVersionTable.PSVersion.ToString() -like '5.*') {
     $PredictionSourceSetting = 'History'
 }
 
-if ($PSVersionTable.PSVersion.ToString() -ge '7.2') {
-    $PredictionSourceSetting   = 'HistoryAndPlugin'
+if ($PSVersionTable.PSVersion -ge '7.2') {
     Write-Verbose 'Setting up PowerShell 7.2+ environment...'
+    $PredictionSourceSetting   = 'HistoryAndPlugin'
     Import-Module CompletionPredictor # Requires PSSubsystemPluginModel experimental feature
 }
 
@@ -62,10 +70,11 @@ if ($IsWindows) {
                 [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterValue', $_)
             }
     }
+    Set-Location -Path ~
 } elseif ($IsLinux) {
-    Import-Module -Name Microsoft.PowerShell.UnixCompleters
+    Import-Module -Name Microsoft.PowerShell.UnixTabCompletion
 } elseif ($IsMacOS) {
-    Import-Module -Name Microsoft.PowerShell.UnixCompleters
+    Import-Module -Name Microsoft.PowerShell.UnixTabCompletion
 }
 #endregion
 #-------------------------------------------------------
@@ -108,7 +117,7 @@ $keymap = @{
     EndOfLine             = 'End'
     KillWord              = 'Ctrl+Delete'
     MenuComplete          = 'Ctrl+Spacebar',
-                            'Ctrl+D2' # needed for Linux/macOS
+                            'Ctrl+D2' # needed for Linux/macOS (not Cmd+D2)
     NextWord              = 'Ctrl+RightArrow'
     Paste                 = 'Ctrl+v'
     Redo                  = 'Ctrl+y'
@@ -117,12 +126,12 @@ $keymap = @{
     SelectBackwardChar    = 'Shift+LeftArrow'
     SelectBackwardsLine   = 'Shift+Home'
     SelectBackwardWord    = 'Shift+Ctrl+LeftArrow'
-    SelectCommandArgument = 'Alt+a'
+    SelectCommandArgument = 'Alt+a' # Need to enable Alt key in macOS Terminal or iTerm2
     SelectForwardChar     = 'Shift+RightArrow'
     SelectLine            = 'Shift+End'
     SelectNextWord        = 'Shift+Ctrl+RightArrow'
     ShowCommandHelp       = 'F1'
-    ShowParameterHelp     = 'Alt+h'
+    ShowParameterHelp     = 'Alt+h' # Need to enable Alt key in macOS Terminal or iTerm2
     SwitchPredictionView  = 'F2'
     TabCompleteNext       = 'Tab'
     TabCompletePrevious   = 'Shift+Tab'
