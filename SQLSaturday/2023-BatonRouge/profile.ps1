@@ -73,8 +73,10 @@ if ($IsWindows) {
     Set-Location -Path ~
 } elseif ($IsLinux) {
     Import-Module -Name Microsoft.PowerShell.UnixTabCompletion
+    Import-PSUnixTabCompletion
 } elseif ($IsMacOS) {
     Import-Module -Name Microsoft.PowerShell.UnixTabCompletion
+    Import-PSUnixTabCompletion
 }
 #endregion
 #-------------------------------------------------------
