@@ -4,7 +4,7 @@ title: sdwheeler Presentation archive
 
 module:
   imports:
-    - path: hugo-theme-relearn
+    - path: github.com/McShelby/hugo-theme-relearn
 
 params:
   alwaysopen: false

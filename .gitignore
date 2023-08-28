@@ -1,8 +1,15 @@
+# macOS files
 .DS_Store
+
+# Hugo files
 .hugo_build.lock
 exampleSite/public*
 exampleSite/hugo*.exe
+_vendor
+
+# Build files
 **/out
 **/*.xcf
-**/*.zip
+
+# Office Temp Files
 ~$*
