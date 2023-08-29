@@ -2,6 +2,7 @@
 title: Setting up Git for PowerShell
 weight: 3
 ---
+<!-- markdownlint-disable MD041 -->
 
 ![Setting up Git for PowerShell](Slide3.PNG)
 

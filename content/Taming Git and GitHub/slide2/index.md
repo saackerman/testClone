@@ -2,6 +2,7 @@
 title: 'What is Git and GitHub?'
 weight: 2
 ---
+<!-- markdownlint-disable MD041 -->
 
 ![What is Git and GitHub?](Slide2.PNG)
 

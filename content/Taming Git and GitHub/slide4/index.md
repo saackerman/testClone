@@ -2,11 +2,9 @@
 title: Installing and using posh-git
 weight: 4
 ---
+<!-- markdownlint-disable MD041 -->
 
-<!--
-![Installing and using posh-git](Slide4.PNG)
--->
-## Installing and configuring posh-git
+## Installing posh-git
 
 **posh-git** is a PowerShell module that integrates Git with PowerShell. It provides Git status
 summary information that's displayed in a customized PowerShell prompt. **posh-git** also provides
@@ -28,6 +26,13 @@ Add the following command to your profile script.
 ```powershell
 Import-Module posh-git
 ```
+
+## Using posh-git
+
+Once **posh-git** is installed and imported, you'll see Git status summary information in your
+prompt.
+
+![Animation showing the posh-git user experience](using-posh-git.gif)
 
 ## Understanding the posh-git prompt
 
