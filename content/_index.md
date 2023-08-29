@@ -10,7 +10,7 @@ The presentations are available in PDF format, and the source code is available 
 ## Contributing to Open Source and Docs
 
 - Contribute to Docs like a Microsoft Insider
-  - PowerShell+DevOps Summit 2022 - Bellevue, WA - [YouTube][12]
+  - PowerShell+DevOps Summit 2022 - Bellevue, WA - [YouTube][11] - ![PDF][14] [Slides][15]
   - PowerShell+DevOps Summit 2023 - Bellevue, WA - [YouTube][13]
 - How to contribute to an Open Source project
   - SpiceWorld 2022 - Austin, TX
@@ -25,12 +25,12 @@ The presentations are available in PDF format, and the source code is available 
 ## Optimizing your PowerShell profile
 
 - [Optimizing your PowerShell profile][02]
-  - SQL Saturday #1016 - Baton Rouge 2023-07-29
+  - SQL Saturday #1016 - Baton Rouge 2023-07-29 - ![PDF][14] [Slides][17]
 
 ## Crescendo
 
 - Turning command-line tools into cmdlets using Crescendo
-  - Automation+DevOps Summit - 2021-11-16 - [YouTube][12]
+  - Automation+DevOps Summit - 2021-11-16 - [YouTube][12] - ![PDF][14] [Slides][16]
 - My Crescendo Journey - blog series
   - [My Crescendo journey][06]
   - [Converting string output to objects][05]
@@ -56,3 +56,7 @@ The presentations are available in PDF format, and the source code is available 
 [11]: https://www.youtube.com/watch?v=9-_VPIu6zLw
 [12]: https://www.youtube.com/watch?v=acynivRDg7g
 [13]: https://www.youtube.com/watch?v=ZQODV8krq1Q
+[14]: /Presentations/filetype-pdf.svg?classes=inline&lightbox=false
+[15]: ./downloads/ContributeDocs/Contribute%20to%20Docs%20like%20a%20Microsoft%20Insider.pdf
+[16]: ./downloads/Crescendo/Get%20more%20from%20your%20tooling%20with%20Crescendo.pdf
+[17]: ./downloads/PSProfiles/Optimizing%20Your%20PowerShell%20Profile.pdf
