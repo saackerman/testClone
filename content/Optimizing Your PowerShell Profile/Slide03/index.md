@@ -19,10 +19,10 @@ support and optimize their environments.
 <!-- link references -->
 [01]: https://learn.microsoft.com/powershell
 [02]: ./Slide03.png
-[03]: /github.svg?classes=inline&lightbox=false
-[04]: /linkedin.svg?classes=inline&lightbox=false
-[05]: /mastodon.svg?classes=inline&lightbox=false
-[06]: /twitter.svg?classes=inline&lightbox=false
+[03]: /Presentations/github.svg?classes=inline&lightbox=false
+[04]: /Presentations/linkedin.svg?classes=inline&lightbox=false
+[05]: /Presentations/mastodon.svg?classes=inline&lightbox=false
+[06]: /Presentations/twitter.svg?classes=inline&lightbox=false
 [07]: https://fosstodon.org/@sdwheeler
 [08]: https://github.com/sdwheeler
 [09]: https://linkedin.com/in/scriptingsean

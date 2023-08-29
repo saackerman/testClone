@@ -1,5 +1,6 @@
 ---
 title: Presentation archive
+archetype: home
 ---
 <!-- markdownlint-disable MD041 -->
 This site contains a collection of presentations I've given at various user groups and conferences.
