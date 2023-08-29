@@ -55,7 +55,7 @@ Get-Process notepad || notepad
 (Test-Path $PROFILE.AllUsersAllHosts) ? "Path exists" : "Path not found"
 
 # Null coalesing operator ?? <if-null>
-$startDate = $null
+[string]$startDate = $null
 $startDate ?? (Get-Date).ToShortDateString()
 $startDate = '1/10/2020'
 $startDate ?? (Get-Date).ToShortDateString()

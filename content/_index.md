@@ -6,36 +6,31 @@ This site contains a collection of presentations I've given at various user grou
 The presentations are available in PDF format, and the source code is available on
 [GitHub](https://github.com/sdwheeler/presentations).
 
-## PowerShell+DevOps Summit
-
-2022 & 2023 - Seattle Marriott - Bellevue, WA
+## Contributing to Open Source
 
 - Contribute to Docs like a Microsoft Insider
-
-## SpiceWorld
-
-2022 - Austin, TX
-
+  - PowerShell+DevOps Summit 2022 & 2023 - Bellevue, WA
 - How to contribute to an Open Source project
+  - SpiceWorld 2022 - Austin, TX
+- How anyone can contribute to the MS Docs website!
+  - RTPSUG - 2020-09-16 - [YouTube](https://www.youtube.com/watch?v=0_DEB61YOMc)
 
-## PowerShell on the River - Chattanooga
-
-2023
+## Creating PowerShell help
 
 - [Creating documentation for your PowerShell module](https://mikefrobbins.github.io/psdocs-how-to)
+  - PowerShell on the River 2023 - Chattanooga, TN
 
-## SQL Saturday
-
-Baton Rouge #1016 - 2023-07-29
+## Optimizing your PowerShell profile
 
 - [Optimizing your PowerShell profile](./optimizing-your-powershell-profile/)
+  - SQL Saturday #1016 - Baton Rouge 2023-07-29
 
-## Automation+DevOps Summit
-
-2021 - Online delivery
+## Crescendo
 
 - Turning command-line tools into cmdlets using Crescendo
+  - Automation+DevOps Summit - Virtual delivery - 2021
 
-## Research Triangle PowerShell Users Group (RTPSUG)
+## Using Git and GitHub
 
 - Taming Git and GitHub with PowerShell
+  - RTPSUG - July 2023 - [YouTube](https://www.youtube.com/watch?v=5TPR66fFrsQ)

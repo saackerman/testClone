@@ -3,7 +3,7 @@ title: Profile basics
 weight: 4
 ---
 <!-- markdownlint-disable MD041 -->
-![Profile basics](./Slide04.png)
+![Profile basics][01]
 
 In PowerShell, the profile script is used to customize the shell environment and define functions,
 aliases, and variables. The profile is a PowerShell script file that is executed when you start a
@@ -49,4 +49,8 @@ you can dot-source the profile script to load it.
 . $profile
 ```
 
-For more information, see [about_Profiles](https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_profiles).
+For more information, see [about_Profiles][02].
+
+<!-- link references -->
+[01]: ./Slide04.png
+[02]: https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_profiles
