@@ -5,6 +5,7 @@
 .hugo_build.lock
 exampleSite/public*
 exampleSite/hugo*.exe
+public
 _vendor
 
 # Build files

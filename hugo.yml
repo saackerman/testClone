@@ -1,6 +1,8 @@
 baseURL: http://sdwheeler.github.io/Presentations
 languageCode: en-us
 title: sdwheeler Presentation archive
+relativeURLs: true
+canonifyURLs: true
 
 module:
   imports:
@@ -9,11 +11,33 @@ module:
 markup:
   highlight:
     style: base16-snazzy
+    lineNoStart: 1
+    lineNos: true
+  goldmark:
+    renderer:
+      unsafe: true
+
+outputs:
+  home: ["HTML", "RSS", "SEARCH", "SEARCHPAGE"]
+
+menu:
+  shortcuts:
+    - name: <i class='fab fa-fw fa-github'></i> GitHub repo
+      identifier: ds
+      url: https://github.com/sdwheeler/Presentations
+      weight: 10
+    - name: <i class='fas fa-fw fa-bullhorn'></i> About
+      pageRef: more/about/
+      weight: 30
+
+author:
+  name: My Name Here
+copyright: This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
 
 params:
   alwaysopen: false
   editURL: ""
-  author: ""
+  author: Sean Wheeler
   description: A collection of presentations that I have delivered for various events.
   showVisitedLinks: false
   disableSearch: false
@@ -40,7 +64,7 @@ params:
   disableNextPrev: false
   ordersectionsby: weight
   themeVariant: blue
-  breadcrumbSeparator: ">"
+  breadcrumbSeparator: " > "
   titleSeparator: "-"
   collapsibleMenu: true
   additionalContentLanguage:

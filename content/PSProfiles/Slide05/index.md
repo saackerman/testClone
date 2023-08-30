@@ -73,11 +73,11 @@ weight: 5
   (Test-Path $PROFILE.AllUsersAllHosts) ? "Path exists" : "Path not found"
 
   # Null coalesing operator ?? <if-null>
-  # Only returns a value if the left side is null
+  # Return the right side value if the left side is null
 
-  PS> [string]$startDate = $null
+  PS> $startDate = $null
   PS> $startDate ?? (Get-Date).ToShortDateString()
-
+  8/30/2023
   PS> $startDate = '1/10/2020'
   PS> $startDate ?? (Get-Date).ToShortDateString()
   1/10/2020

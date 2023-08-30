@@ -9,30 +9,30 @@ The presentations are available in PDF format, and the source code is available 
 
 ## Contributing to Open Source and Docs
 
-- Contribute to Docs like a Microsoft Insider - ![PDF][08] [Slides][01]
-  - PowerShell+DevOps Summit 2022 - Bellevue, WA - ![YT][09] [YouTube][18]
-  - PowerShell+DevOps Summit 2023 - Bellevue, WA - ![YT][09] [YouTube][20]
+- Contribute to Docs like a Microsoft Insider - [<i class="far fa-file-pdf"></i> Slides][01]
+  - PowerShell+DevOps Summit 2022 - Bellevue, WA - [<i class="fab fa-youtube"></i> YouTube][18]
+  - PowerShell+DevOps Summit 2023 - Bellevue, WA - [<i class="fab fa-youtube"></i> YouTube][20]
 - How to contribute to an Open Source project
   - SpiceWorld 2022 - Austin, TX
 - How anyone can contribute to the MS Docs website!
-  - RTPSUG - 2020-09-16 - ![YT][09] [YouTube][16]
+  - RTPSUG - 2020-09-16 - [<i class="fab fa-youtube"></i> YouTube][16]
 
 ## PowerShell Help System
 
 - [Creating documentation for your PowerShell module][15]
   - PowerShell on the River 2023 - Chattanooga, TN
-- [Unlocking the secrets of PowerShell Help][06] - ![PDF][08] [Slides][03]
+- [Unlocking the secrets of PowerShell Help][06] - [<i class="far fa-file-pdf"></i> Slides][03]
   - PowerShell on the River 2023 - Chattanooga, TN
 
 ## Optimizing your PowerShell profile
 
-- [Optimizing your PowerShell profile][07] - ![PDF][08] [Slides][04]
+- [Optimizing your PowerShell profile][07] - [<i class="far fa-file-pdf"></i> Slides][04]
   - SQL Saturday #1016 - Baton Rouge 2023-07-29
 
 ## Crescendo
 
-- Turning command-line tools into cmdlets using Crescendo - ![PDF][08] [Slides][02]
-  - Automation+DevOps Summit - 2021-11-16 - ![YT][09] [YouTube][19]
+- Turning command-line tools into cmdlets using Crescendo - [<i class="far fa-file-pdf"></i> Slides][02]
+  - Automation+DevOps Summit - 2021-11-16 - [<i class="fab fa-youtube"></i> YouTube][19]
 - My Crescendo Journey - blog series
   - [My Crescendo journey][13]
   - [Converting string output to objects][12]
@@ -42,7 +42,7 @@ The presentations are available in PDF format, and the source code is available 
 ## Using Git and GitHub
 
 - [Taming Git and GitHub with PowerShell][05]
-  - RTPSUG - 2023-07-05 - ![YT][09] [YouTube][17]
+  - RTPSUG - 2023-07-05 - [<i class="fab fa-youtube"></i> YouTube][17]
 
 <!-- link references -->
 [01]: ./downloads/ContributeDocs/Contribute%20to%20Docs%20like%20a%20Microsoft%20Insider.pdf
@@ -52,8 +52,6 @@ The presentations are available in PDF format, and the source code is available 
 [05]: ./GitHub/
 [06]: ./PSHelp/
 [07]: ./PSProfiles/
-[08]: /Presentations/filetype-pdf.svg?classes=inline&lightbox=false
-[09]: /Presentations/youtube.svg?classes=inline&lightbox=false
 [10]: https://devblogs.microsoft.com/powershell-community/a-closer-look-at-the-crescendo-configuration/
 [11]: https://devblogs.microsoft.com/powershell-community/a-closer-look-at-the-parsing-code-of-a-crescendo-output-handler/
 [12]: https://devblogs.microsoft.com/powershell-community/converting-string-output-to-objects/
