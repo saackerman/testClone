@@ -17,7 +17,7 @@ support and optimize their environments.
 
 <!-- link references -->
 [01]: https://learn.microsoft.com/powershell
-[02]: /Presentations/Profile-20190514-4x5.jpg?lightbox=false
+[02]: Profile-20190514-4x5.jpg?lightbox=false
 [07]: https://fosstodon.org/@sdwheeler
 [08]: https://github.com/sdwheeler
 [09]: https://linkedin.com/in/scriptingsean

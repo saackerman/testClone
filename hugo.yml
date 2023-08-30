@@ -1,7 +1,6 @@
 baseURL: http://sdwheeler.github.io/Presentations
 languageCode: en-us
 title: sdwheeler Presentation archive
-relativeURLs: true
 canonifyURLs: true
 
 module:
@@ -71,4 +70,4 @@ params:
     - en
   disableExplicitIndexURLs: false
   externalLinkTarget: _blank
-  canonifyURLs: true
+
