@@ -49,9 +49,9 @@ The presentations are available in PDF format, and the source code is available 
 [02]: ./downloads/Crescendo/Get%20more%20from%20your%20tooling%20with%20Crescendo.pdf
 [03]: ./downloads/PSHelp/Unlocking%20the%20secrets%20of%20PowerShell%20Help.pdf
 [04]: ./downloads/PSProfiles/Optimizing%20Your%20PowerShell%20Profile.pdf
-[05]: ./GitHub/
-[06]: ./PSHelp/
-[07]: ./PSProfiles/
+[05]: ./github/
+[06]: ./pshelp/
+[07]: ./psprofiles/
 [10]: https://devblogs.microsoft.com/powershell-community/a-closer-look-at-the-crescendo-configuration/
 [11]: https://devblogs.microsoft.com/powershell-community/a-closer-look-at-the-parsing-code-of-a-crescendo-output-handler/
 [12]: https://devblogs.microsoft.com/powershell-community/converting-string-output-to-objects/
