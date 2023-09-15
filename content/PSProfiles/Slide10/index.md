@@ -20,6 +20,14 @@ Docs
 - [PowerShell differences on non-Windows platforms][07]
 - [about_Operators][02]
 
+Demo scripts
+
+- [demo.ps1][11] - Script used to demonstrate the version and platform differences in PowerShell
+- [Microsoft.PowerShell_profile.ps1][12] - Sample profile script showing how to manage the version and
+  platform differences
+- [Microsoft.VSCode_profile.ps1][13] - Sample profile script that gets run by the PowerShell extension
+  for VS Code
+
 <!-- link references -->
 [01]: https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_ansi_terminals
 [02]: https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_operators
@@ -31,3 +39,6 @@ Docs
 [08]: https://www.powershellgallery.com/packages/CompletionPredictor/
 [09]: https://www.powershellgallery.com/packages/Microsoft.PowerShell.UnixTabCompletion/
 [10]: https://www.powershellgallery.com/packages/PSStyle/
+[11]: /downloads/PSProfiles/demo.ps1 "Right-click to download"
+[12]: /downloads/PSProfiles/Microsoft.PowerShell_profile.ps1 "Right-click to download"
+[13]: /downloads/PSProfiles/Microsoft.VSCode_profile.ps1 "Right-click to download"

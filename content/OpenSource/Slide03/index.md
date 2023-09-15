@@ -1,19 +1,33 @@
 ---
-title: What is Open Source?
+title: what's Open Source?
 weight: 3
 ---
 <!-- markdownlint-disable MD041 -->
-![What is open source?](./Slide03.PNG)
+![What is open source?][01]
 
 Open source is a term that originally referred to open source software (OSS). Open source software
-is code that is designed to be publicly accessible—anyone can see, modify, and distribute the code
+is code that's designed to be publicly accessible—anyone can see, modify, and distribute the code
 as they see fit.
 
 Open source software is developed in a decentralized and collaborative way, relying on peer review
 and community production. Open source software is often cheaper, more flexible, and has more
-longevity than its proprietary peers because it is developed by communities rather than a single
+longevity than its proprietary peers because it's developed by communities rather than a single
 author or company.
 
 Open source has become a movement and a way of working that reaches beyond software production. The
 open source movement uses the values and decentralized production model of open source software to
 find new ways to solve problems in their communities and industries.
+
+## Recommended reading
+
+- [What is open source?][05]
+- [Open source][02]
+- [Open-source software][04]
+- [Open-source license][03]
+
+<!-- link references -->
+[01]: ./Slide03.PNG
+[02]: https://wikipedia.org/wiki/Open_source "Wikipedia"
+[03]: https://wikipedia.org/wiki/Open-source_license "Wikipedia"
+[04]: https://wikipedia.org/wiki/Open-source_software "Wikipedia"
+[05]: https://www.redhat.com/topics/open-source/what-is-open-source "redhat.com"
