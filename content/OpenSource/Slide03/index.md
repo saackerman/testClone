@@ -1,5 +1,5 @@
 ---
-title: what's Open Source?
+title: What is Open Source?
 weight: 3
 ---
 <!-- markdownlint-disable MD041 -->

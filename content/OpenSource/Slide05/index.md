@@ -51,7 +51,8 @@ improve that project for yourself, but for the entire community.
 > _However, if that work has been on GitHub, it's not gone. It's visible. It's connected to a network
 > of trust that is visible."_ - Josh Wulf
 
-And remember, public contributions to Microsoft projects helps you earn or maintain your MVP status.
+**And remember, public contributions to Microsoft projects helps you earn or maintain your MVP
+status.**
 
 ## Recommended reading
 
