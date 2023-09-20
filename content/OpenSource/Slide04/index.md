@@ -1,6 +1,6 @@
 ---
 title: Elements of an open source project
-weight: 3
+weight: 4
 ---
 <!-- markdownlint-disable MD041 -->
 ![Elements of an open source project](./Slide04.PNG)
