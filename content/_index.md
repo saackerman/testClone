@@ -9,7 +9,7 @@ The presentations are available in PDF format, and the source code is available 
 
 ## Contributing to Open Source and Docs
 
-- Contribute to Docs like a Microsoft Insider - [<i class="far fa-file-pdf"></i> Slides][01]
+- [Contribute to Docs like a Microsoft Insider][21] - [<i class="far fa-file-pdf"></i> Slides][01]
   - PowerShell+DevOps Summit 2022 - Bellevue, WA - [<i class="fab fa-youtube"></i> YouTube][18]
   - PowerShell+DevOps Summit 2023 - Bellevue, WA - [<i class="fab fa-youtube"></i> YouTube][20]
 - [How to contribute to an Open Source project][06]
@@ -65,3 +65,4 @@ The presentations are available in PDF format, and the source code is available 
 [18]: https://www.youtube.com/watch?v=9-_VPIu6zLw
 [19]: https://www.youtube.com/watch?v=acynivRDg7g
 [20]: https://www.youtube.com/watch?v=ZQODV8krq1Q
+[21]: ./contributedocs/
