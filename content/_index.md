@@ -22,17 +22,17 @@ The presentations are available in PDF format, and the source code is available 
 - [Taming Git and GitHub with PowerShell][05]
   - RTPSUG - 2023-07-05 - [<i class="fab fa-youtube"></i> YouTube][17]
 
+## Optimizing your PowerShell profile
+
+- [Optimizing your PowerShell profile][08] - [<i class="far fa-file-pdf"></i> Slides][04]
+  - SQL Saturday #1016 - Baton Rouge 2023-07-29
+
 ## PowerShell Help System
 
 - [Creating documentation for your PowerShell module][14]
   - PowerShell on the River 2023 - Chattanooga, TN
 - [Unlocking the secrets of PowerShell Help][07] - [<i class="far fa-file-pdf"></i> Slides][03]
   - PowerShell on the River 2023 - Chattanooga, TN
-
-## Optimizing your PowerShell profile
-
-- [Optimizing your PowerShell profile][08] - [<i class="far fa-file-pdf"></i> Slides][04]
-  - SQL Saturday #1016 - Baton Rouge 2023-07-29
 
 ## Crescendo
 
