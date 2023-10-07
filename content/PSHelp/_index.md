@@ -1,6 +1,6 @@
 ---
 title: Unlocking the secrets of PowerShell Help
-weight: 3
+weight: 4
 ---
 
 ![Unlocking the secrets of PowerShell Help][01]

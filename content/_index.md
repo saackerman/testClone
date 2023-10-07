@@ -17,6 +17,11 @@ The presentations are available in PDF format, and the source code is available 
 - How anyone can contribute to the MS Docs website!
   - RTPSUG - 2020-09-16 - [<i class="fab fa-youtube"></i> YouTube][16]
 
+## Using Git and GitHub
+
+- [Taming Git and GitHub with PowerShell][05]
+  - RTPSUG - 2023-07-05 - [<i class="fab fa-youtube"></i> YouTube][17]
+
 ## PowerShell Help System
 
 - [Creating documentation for your PowerShell module][14]
@@ -38,11 +43,6 @@ The presentations are available in PDF format, and the source code is available 
   - [Converting string output to objects][11]
   - [A closer look at the parsing code of a Crescendo output handler][10]
   - [A closer look at the Crescendo configuration][09]
-
-## Using Git and GitHub
-
-- [Taming Git and GitHub with PowerShell][05]
-  - RTPSUG - 2023-07-05 - [<i class="fab fa-youtube"></i> YouTube][17]
 
 <!-- link references -->
 [01]: ./downloads/ContributeDocs/Contribute%20to%20Docs%20like%20a%20Microsoft%20Insider.pdf

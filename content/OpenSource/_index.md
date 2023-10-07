@@ -1,6 +1,6 @@
 ---
 title: How to Contribute to an Open Source Project
-weight: 4
+weight: 5
 ---
 <!-- markdownlint-disable MD041 -->
 ![How to Contribute to an Open Source Project](./Slide01.PNG)
