@@ -26,6 +26,7 @@ The presentations are available in PDF format, and the source code is available 
 
 - [Optimizing your PowerShell profile][06] - [<i class="far fa-file-pdf"></i> Slides][10]
   - SQL Saturday #1016 - Baton Rouge 2023-07-29
+  - RTPSUG - 2023-11-01 - [<i class="fab fa-youtube"></i> YouTube - coming soon][23]
 
 ## PowerShell Help System
 
@@ -67,3 +68,4 @@ The presentations are available in PDF format, and the source code is available 
 [20]: https://www.youtube.com/watch?v=9-_VPIu6zLw "PowerShell+DevOps Summit 2022"
 [21]: https://www.youtube.com/watch?v=acynivRDg7g "Crescendo"
 [22]: https://www.youtube.com/watch?v=ZQODV8krq1Q "PowerShell+DevOps Summit 2023"
+[23]: https://www.youtube.com/@RTPSUG/videos "RTPSUG - 2023-11-01"
